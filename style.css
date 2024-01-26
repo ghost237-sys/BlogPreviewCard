@@ -1,0 +1,95 @@
+body{
+    width: 1440px;
+    font-size: 16px;
+    background-color:hsl(47, 88%, 63%) ;
+    font-family: 'Figtree', sans-serif;
+}
+
+.container{
+    width:375px;
+    height: 500px;
+    margin:150px 250px 150px 620px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 15px 15px 0px 3px hsl(0, 0%, 7%);
+    ;
+    border: 1px solid black;
+}
+
+
+#image{
+    width: 500px;
+
+}
+
+#image svg{
+    object-fit: fill;
+    border-radius: 10px;
+    margin: 20px 20px 10px 20px;
+}
+
+.Learning-text{
+    width: 70px;
+    height: 20px;
+    background-color: hsl(47, 88%, 63%) ;
+    margin: 5px 20px 10px 20px;
+    padding:5px 5px 5px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.Learning-text p{
+    text-align: justify;
+    margin: 2px 5px 5px 5px;
+}
+
+.bottom-image {
+    display: flex;
+    margin: 10px 20px 10px 20px;
+} 
+.bottom-image p{
+    margin: 10px 5px 5px 10px;
+    text-align: justify;
+    font-weight: 900;
+}
+
+.bottom-image img{
+    width: 40px;
+    height:40px;
+}
+p {
+    margin: 10px 20px 10px 20px;
+}
+#published{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 25px;
+    margin: 10px 20px 10px 20px;
+    font-weight: 900px;
+}
+
+@media only screen and (max-device-width:375px)  {
+    body{
+        width: 375px;
+    }
+
+.container{
+    width: 460px;
+    height: 600px;
+    margin: 150px 20px 20px 20px;
+}
+
+#image svg{
+    width: 420px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+h1{
+    font-size: 35px;
+}
+}
+
