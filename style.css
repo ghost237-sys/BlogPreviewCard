@@ -8,7 +8,7 @@ body{
 .container{
     width:375px;
     height: 500px;
-    margin:150px 250px 150px 620px;
+    margin:200px 250px 150px 580px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     box-shadow: 15px 15px 0px 3px hsl(0, 0%, 7%);
